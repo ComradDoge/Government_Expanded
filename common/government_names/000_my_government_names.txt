@@ -1,0 +1,100 @@
+# For specific government types
+# Will pick the first valid one it finds in list
+
+mewati_monarchy = {
+	rank = {
+		1 = PRINCEDOM
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = WALI
+		2 = NAWAB
+		3 = SHAHANSHAH
+	}
+
+	ruler_female = {
+		1 = WALIBEGUM
+		2 = WALIBEGUM
+		3 = PASHABEGUM
+	}
+	
+	consort_male = {
+		1 = WALI
+		2 = NAWAB
+		3 = SHAHANSHAH
+	}
+	
+	consort_female = {
+		1 = WALIBEGUM
+		2 = WALIBEGUM
+		3 = PASHABEGUM
+	}
+	
+	heir_male = {
+		1 = SHEHZADA
+		2 = SHEHZADA
+		3 = SHEHZADA
+	}
+	
+	heir_female = {
+		1 = SHEHZADI
+		2 = SHEHZADI
+		3 = SHEHZADI
+	}
+
+	trigger = {
+		government = monarchy
+		tag = MEW
+	}
+}
+
+marwari_monarchy = {
+	rank = {
+		1 = PRINCEDOM
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = RAO
+		2 = MAHARAJA
+		3 = CHHATRAPATI
+	}
+
+	ruler_female = {
+		1 = RANI
+		2 = MAHARANI
+		3 = CHHATRAPATI
+	}
+	
+	consort_male = {
+		1 = RAO
+		2 = MAHARAJA
+		3 = CHHATRAPATI
+	}
+	
+	consort_female = {
+		1 = RANI
+		2 = MAHARANI
+		3 = CHHATRAPATI
+	}
+	
+	heir_male = {
+		1 = RAJKUMAR
+		2 = RAJKUMAR
+		3 = RAJKUMAR
+	}
+	
+	heir_female = {
+		1 = RAJKUMARI
+		2 = RAJKUMARI
+		3 = RAJKUMARI
+	}
+
+	trigger = {
+		government = monarchy
+                tag = JAN
+	}
+}
